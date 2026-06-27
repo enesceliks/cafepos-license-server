@@ -1,0 +1,18 @@
+{
+  "name": "cafepos-license-server",
+  "version": "1.0.0",
+  "description": "CafePOS Lisans Doğrulama Sunucusu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.7",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
